@@ -15,7 +15,7 @@ namespace CustomLoadingScreen
 
 		public static void Initialize()
 		{
-			WinchCore.Log.Info("Initalizing");
+			WinchCore.Log.Info("Loading custom loading screen texture");
 			Object.DontDestroyOnLoad(loadingTexture);
 			loadingMaterial = new Material(Shader.Find("UI/Default"));
 			loadingMaterial.name = "CustomLoadingScreen";
@@ -27,6 +27,7 @@ namespace CustomLoadingScreen
 		public static void ReplaceLoadingScreenImage() => ReplaceLoadingScreenImage(GameManager.Instance.Loader.loadingScreen);
 		public static void ReplaceLoadingScreenImage(LoadingScreen loadingScreen)
 		{
+			WinchCore.Log.Info("Replacing loading screen image with custom one");
 			Image component = loadingScreen.loadingScreen.transform.Find("Container/Image").GetComponent<Image>();
 			component.color = Color.white;
 			component.material = Main.loadingMaterial;
