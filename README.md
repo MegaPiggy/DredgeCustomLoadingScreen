@@ -6,3 +6,7 @@ Must be a .png, and will be loaded from the same folder as the mod dll at Assets
 For example: C:\Program Files (x86)\Steam\steamapps\common\DREDGE\Mods\megapiggy.customloadingscreen\Assets\LoadingScreen.png
 
 Port of [RamuneNeptune's BepInEx mod](https://www.nexusmods.com/dredge/mods/9) to [Winch](https://dredgemods.com/mods/winch/)
+
+![Example 1](https://raw.githubusercontent.com/MegaPiggy/DredgeCustomLoadingScreen/main/1.png)
+![Example 2](https://raw.githubusercontent.com/MegaPiggy/DredgeCustomLoadingScreen/main/2.png)
+![Example 3](https://raw.githubusercontent.com/MegaPiggy/DredgeCustomLoadingScreen/main/3.png)
