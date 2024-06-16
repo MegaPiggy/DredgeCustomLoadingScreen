@@ -1,0 +1,9 @@
+{
+  "Author": "MegaPiggy",
+  "Name": "Custom Loading Screen",
+  "ModGUID": "megapiggy.customloadingscreen",
+  "Entrypoint": "CustomLoadingScreen.Main/Initialize",
+  "Version": "1.0",
+  "ModAssembly": "CustomLoadingScreen.dll",
+  "MinWinchVersion": "alpha-1.4"
+}
